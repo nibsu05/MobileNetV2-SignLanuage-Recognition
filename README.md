@@ -7,9 +7,10 @@ Nhận diện chữ cái ngôn ngữ ký hiệu sử dụng MobileNetV2
 
 
 ## Dữ liệu (Dataset)
-Bộ dữ liệu đã được xử lý và đóng gói. Bạn có thể tải về tại đây:
-- **Google Drive**: [Download ASL Dataset.zip](https://drive.google.com/file/d/1yLIR-gLw5P_qvDDpT73ebCQ8rb0bCVol/view?usp=sharing)
+Bộ dữ liệu mẫu đã được xử lý và đóng gói. Bạn có thể tải về tại đây:
+- **Google Drive**: [data.zip](https://drive.google.com/file/d/1yLIR-gLw5P_qvDDpT73ebCQ8rb0bCVol/view?usp=sharing)
 - Sau khi tải về, giải nén vào thư mục gốc của dự án (sẽ tạo ra thư mục `data/`).
+- Còn không thì bạn hoàn toàn có thể tự tạo lại bộ dữ liệu với **`collect_data_webcam.py`**
 
 ## Kết quả & Trực quan hóa
 
@@ -54,7 +55,7 @@ Bộ dữ liệu đã được xử lý và đóng gói. Bạn có thể tải v
 - **`preprocess_remove_bg.py`**: Xử lý dữ liệu thô:
   - Dùng MediaPipe cắt tay và xóa nền đen.
   - Tự động Augmentation (xoay, chỉnh sáng) để cân bằng dữ liệu (500 ảnh/lớp).
-- **`split_data.py`**: Chia dữ liệu thành 3 tập: Train (80%), Valid (10%), Test (10%).
+- **`split_data.py`**: Chia dữ liệu thành 3 tập: Train (70%), Valid (15%), Test (15%).
 - **`visualize_preprocessing.py`**: Biểu đồ hóa dữ liệu:
   - Phân phối lớp (Class Distribution).
   - So sánh trước/sau tiền xử lý (Grayscale, CLAHE).
@@ -66,6 +67,7 @@ Bộ dữ liệu đã được xử lý và đóng gói. Bạn có thể tải v
 ### 5. Khác
 - **`check_gpu.py`**: Kiểm tra PyTorch có nhận GPU (CUDA) không.
 - **`requirements.txt`**: Danh sách các thư viện cần thiết.
+
 
 
 
