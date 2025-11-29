@@ -1,6 +1,6 @@
 ﻿# Sign Language Letters Recognition
 
-Nhận diện chữ cái ngôn ngữ ký hiệu sử dụng MobileNetV2 
+Nhận diện chữ cái ngôn ngữ ký hiệu sử dụng MobileNetV2 (Không pretrained) 
 
 ![alphabet](alphabet.png)
 
@@ -69,6 +69,7 @@ Bộ dữ liệu mẫu đã được xử lý và đóng gói. Bạn có thể t
 ### 5. Khác
 - **`check_gpu.py`**: Kiểm tra PyTorch có nhận GPU (CUDA) không.
 - **`requirements.txt`**: Danh sách các thư viện cần thiết.
+
 
 
 
