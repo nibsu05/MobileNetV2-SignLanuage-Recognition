@@ -16,7 +16,7 @@ Bộ dữ liệu mẫu đã được xử lý và đóng gói. Bạn có thể t
 
 ## Kết quả & Trực quan hóa
 
-### 1. Quy trình tiền xử lý (Background Removal -> Gray -> CLAHE)
+### 1. Quy trình tiền xử lý (Background Removed -> Gray -> CLAHE)
 ![Preprocessing Pipeline](results/preprocessing_comparison.png)
 *So sánh ảnh gốc, ảnh xám và ảnh sau khi cân bằng sáng CLAHE.*
 
@@ -69,6 +69,7 @@ Bộ dữ liệu mẫu đã được xử lý và đóng gói. Bạn có thể t
 ### 5. Khác
 - **`check_gpu.py`**: Kiểm tra PyTorch có nhận GPU (CUDA) không.
 - **`requirements.txt`**: Danh sách các thư viện cần thiết.
+
 
 
 
