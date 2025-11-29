@@ -3,7 +3,7 @@
 Nhận diện chữ cái ngôn ngữ ký hiệu sử dụng MobileNetV2 
 
 ## Demo
-[![Watch the video](demo.mp4)
+<video width="630" height="300" src="demo.mp4"></video>
 
 ## Dữ liệu (Dataset)
 Bộ dữ liệu đã được xử lý và đóng gói. Bạn có thể tải về tại đây:
@@ -65,4 +65,5 @@ Bộ dữ liệu đã được xử lý và đóng gói. Bạn có thể tải v
 ### 5. Khác
 - **`check_gpu.py`**: Kiểm tra PyTorch có nhận GPU (CUDA) không.
 - **`requirements.txt`**: Danh sách các thư viện cần thiết.
+
 
